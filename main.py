@@ -32,5 +32,4 @@ def log(dir, province, city, sights, time, thinkings, files):
         dir[province][city][sights] = {}
         dir[province][city][sights][time] = {}
         dir[province][city][sights][time][thinkings] = files
-    print(dir)
     return 0
